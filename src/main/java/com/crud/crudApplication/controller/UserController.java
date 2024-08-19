@@ -56,6 +56,7 @@ public class UserController {
         user.setId(id);
         User updatedUser = userService.save(user);
         return ResponseEntity.ok(updatedUser);
+        // arbab seb
     }
 
     @DeleteMapping("/{id}")
